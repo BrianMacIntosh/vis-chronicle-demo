@@ -1,0 +1,14 @@
+body, html {
+	font-family: sans-serif;
+	height: 100%;
+}
+#visualization {
+	height: 100%;
+}
+.vis-item.vis-background.hostile-nation {
+	background-color: rgba(255, 0, 0, 0.2);
+}
+.vis-item.reign {
+	background-color: rgba(255, 255, 0, 0.5);
+	z-index: 2;
+}

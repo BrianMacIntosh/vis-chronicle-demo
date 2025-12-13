@@ -1,0 +1,82 @@
+{
+	"groups":
+	[
+		{
+			"id": "kings",
+			"content": ""
+		},
+		{
+			"id": "biblical-figures",
+			"content": ""
+		}
+	],
+	"options":
+	{
+		"width": "100%",
+		"groupHeightMode": "fixed",
+		"format": {
+			"minorLabels": { "year": "Y" },
+			"majorLabels": { "month": "Y" }
+		},
+		"min": "-005000-01-01",
+		"max": "1000-01-01",
+		"preferZoom": false,
+		"showCurrentTime": false
+	},
+	"items":
+	[
+		{
+			"comment": "All human biblical figures",
+			"itemQuery": "{_OUTVAR} wdt:P31 wd:Q20643955",
+			"group": "biblical-figures",
+
+			"startQuery": "#dateOfBirth",
+			"endQuery": "#dateOfDeath"
+		},
+		{
+			"label": "Darius I (the Great)",
+			"group": "kings",
+			"entity": "Q44387",
+
+			"startQuery": "#dateOfBirth",
+			"endQuery": "#dateOfDeath"
+		},
+		{
+			"comment": "Reign of Darius I",
+			"className": "reign",
+			"group": "kings",
+			"entity": "Q44387",
+			"position": "Q938153",
+
+			"startQuery": "#positionHeldStart",
+			"endQuery": "#positionHeldEnd"
+		},
+		{
+			"label": "Artaxerxes I (Ahasuerus)",
+			"group": "kings",
+			"entity": "Q189689",
+
+			"startQuery": "#dateOfBirth",
+			"endQuery": "#dateOfDeath"
+		},
+		{
+			"comment": "Reign of Artaxerxes I",
+			"className": "reign",
+			"group": "kings",
+			"entity": "Q189689",
+			"position": "Q3114558",
+
+			"startQuery": "#positionHeldStart",
+			"endQuery": "#positionHeldEnd"
+		},
+		{
+			"label": "Achaemenid Empire",
+			"type": "background",
+			"className": "hostile-nation",
+			"entity": "Q389688",
+
+			"startQuery": "#inception",
+			"endQuery": "#dissolved"
+		}
+	]
+}
