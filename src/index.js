@@ -1,6 +1,7 @@
-const { Timeline } = require("vis-timeline");
-const { DataSet } = require("vis-data");
-import 'vis-timeline/styles/vis-timeline-graph2d.css';
+const { Timeline } = require("vis-timeline")
+const { DataSet } = require("vis-data")
+import 'vis-timeline/styles/vis-timeline-graph2d.css'
+import 'vis-chronicle/styles/style.css'
 import './style.css'
 const timelineData = require("../intermediate/timeline.json")
 

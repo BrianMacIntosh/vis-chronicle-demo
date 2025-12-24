@@ -10,7 +10,10 @@
 	{
 		"width": "100%",
 		"preferZoom": false,
-		"showCurrentTime": true
+		"showCurrentTime": true,
+		"stack": false,
+		"stackSubgroups": false,
+		"verticalScroll": true
 	},
 	"queryTemplates":
 	{
