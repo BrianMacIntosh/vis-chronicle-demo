@@ -38,8 +38,7 @@
 			"position": "Q11696",
 			"className": "reign",
 
-			"startQuery": "#positionHeldStart",
-			"endQuery": "#positionHeldEnd",
+			"startEndQuery": "#positionHeldStartEnd",
 			"expectedDuration": { "avg": 4, "max": 8 }
 		},
 		{
