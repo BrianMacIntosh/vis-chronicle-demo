@@ -12,3 +12,9 @@ body, html {
 	background-color: rgba(255, 255, 0, 0.5);
 	z-index: 2;
 }
+.vis-item.reign.visc-right-tail {
+	background: 
+    	linear-gradient(to right, rgba(255, 255, 0, 0.5), white) padding-box, /*HACK: white for "transparent"*/
+    	linear-gradient(to right, #97b0f8, transparent) border-box;
+	border-color: transparent;
+}
