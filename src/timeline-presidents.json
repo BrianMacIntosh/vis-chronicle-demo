@@ -17,18 +17,30 @@
 	},
 	"queryTemplates":
 	{
-		"dateOfBirth": "{entity} p:P569 {_OUT}.",
-		"dateOfDeath": "{entity} p:P570 {_OUT}."
+		"dateOfBirth": "{entity} p:P569 ?_prop. ?_prop psv:P569 ?_value.",
+		"dateOfDeath": "{entity} p:P570 ?_prop. ?_prop psv:P570 ?_value."
 	},
 	"items":
 	[
 		{
 			"comment": "All United States presidents",
-			"itemQuery": "{_OUT} wdt:P39 wd:Q11696. {_OUT} wdt:P31 wd:Q5.",
+			"itemQuery": "?_node wdt:P39 wd:Q11696. ?_node wdt:P31 wd:Q5.",
 			"group": "presidents",
 
 			"startQuery": "#dateOfBirth",
 			"endQuery": "#dateOfDeath"
+		},
+		{
+			"comment": "All United States presidential terms",
+			"itemQuery": "?_node wdt:P39 wd:Q11696. ?_node wdt:P31 wd:Q5.",
+			"label": "",
+			"group": "presidents",
+			"position": "Q11696",
+			"className": "reign",
+
+			"startQuery": "#positionHeldStart",
+			"endQuery": "#positionHeldEnd",
+			"expectedDuration": { "avg": 4, "max": 8 }
 		},
 		{
 			"label": "Ed Kealty (fictional)",
