@@ -39,7 +39,7 @@
 			"className": "reign",
 
 			"startEndQuery": "#positionHeldStartEnd",
-			"expectedDuration": { "avg": 4, "max": 8 }
+			"expectedDuration": { "avg": "P4Y", "max": "P8Y" }
 		},
 		{
 			"label": "Ed Kealty (fictional)",
