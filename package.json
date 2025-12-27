@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "chronicle": "vis-chronicle ./src/timeline-presidents.json -v"
+	"chronicle": "vis-chronicle ./src/timeline.json -v"
   },
   "author": "Brian MacIntosh",
   "license": "ISC",
