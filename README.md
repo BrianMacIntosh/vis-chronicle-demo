@@ -1,6 +1,6 @@
 # vis-chronical demo
 
-This is demonstration application using [vis-chronical](https://github.com/BrianMacIntosh/vis-chronicle) to produce a webpage with a timeline.
+This is demonstration application using [vis-chronicle](https://github.com/BrianMacIntosh/vis-chronicle) to produce a webpage with a timeline.
 
 # Building
 
