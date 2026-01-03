@@ -4,6 +4,8 @@
 # User desktop customization
 desktop.ini
 
+# dist is included for Pages hosting
+
 # Logs
 logs
 *.log
@@ -86,7 +88,6 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 .output
 
 # Gatsby files
