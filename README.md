@@ -2,7 +2,7 @@
 
 This is demonstration application using [vis-chronicle](https://github.com/BrianMacIntosh/vis-chronicle) to produce a webpage with a timeline.
 
-View the output at [https://brianmacintosh.github.io/vis-chronicle-demo/].
+View the output at https://brianmacintosh.github.io/vis-chronicle-demo/.
 
 # Building
 
